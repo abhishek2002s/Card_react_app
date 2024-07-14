@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    /* width: fit-content; */
+    /* min-width: 50vw; */
+    font-family: "Poppins";
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1666993407939-f0b51bdfc116?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 3vw;
+    padding: 1vw 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+
+}
+
+.title:hover{
+    outline: 3px solid grey;
+    transition: all  ease-in-out .3s;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+/* justify-content: start; */
+background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:hover{
+    /* background-color: ; */
+    background-color: rgb(238, 217, 217);
+    /* mix-blend-mode: difference; */
+}
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px 5px;
+    text-align: left;
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color: #12b0e8;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin: 18px;
+    padding: 10px 80px;
+    text-align: center;
+    background-color:#b4161b21;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-white{
+    margin-top: 18px;
+    padding: 1vw 2vw;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-white:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
